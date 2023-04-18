@@ -45,4 +45,68 @@
         </nav>
     </header>
 
+<div class="content">
+    <h2 class="mt-5 pt-5 text-center fw-bold">Create an Account</h2>
+    <form>
+
+    <div class="col-sm-3">
+        <label for="firstName" class="form-label">First name</label>
+        <input type="text" class="form-control" id="firstName" placeholder="" value="">
+    </div>
+
+    <div class="col-sm-3">
+        <label for="lastName" class="form-label">Last name</label>
+        <input type="text" class="form-control" id="lastName" placeholder="" value="">
+    </div>
+
+    <div class="col-sm-3">
+        <label for="email" class="form-label">Email<span class="text-muted"></span></label>
+        <input type="email" class="form-control fst-italic" id="email" placeholder="name@example.com">
+    </div>
+
+    <div class="col-sm-3">
+        <label for="address" class="form-label">Address</label>
+        <input type="text" class="form-control fst-italic" id="address" placeholder="123 Washington St">
+    </div>
+    <div class="col-sm-3">
+        <label for="address2" class="form-label">Address 2<span class="text-muted">(Optiona)</span></label>
+        <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+    </div>
+    <div class="col-sm-3">
+        <label for="country" class="form-label">Country</label>
+        <select class="form-select" id="country">
+            <option value="">Choose your country</option>
+            <option>Nepal</option>
+            <option>United States of America</option>
+            <option>My country</option>
+        </select>
+    </div>
+    <div class="col-sm-3">
+        <label for="state" class="form-label">State</label>
+        <select class="form-select" id="state">
+            <option value="">Choose your state</option>
+            <option>Kathmandu</option>
+            <option>New York</option>
+            <option>Your State</option>
+        </select>
+    </div>
+    <div class="col-sm-3">
+        <label for="zip" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="zip" placeholder="">
+    </div>
+    <div><hr class="my-4"></div>
+    <div class="form-check col-sm-3">
+        <input type="checkbox" class="form-check-input" id="same-address">
+        <label class="form-check-label" for="same-address">Shipping address is the same as my billing address.</label>
+    </div>
+    <div class="form-check col-sm-3">
+        <input type="checkbox" class="form-check-input" id="save-info">
+        <label class="form-check-label" for="save-info">Save this information for next time.</label>
+       
+    </div>
+    <div class="col-sm-3">
+        <button type="submit" class="btn btn-primary mt-3">Create Account</button>
+    </div>
+    </form>
+</div>
 </body>
