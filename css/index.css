@@ -5,9 +5,11 @@ h4{
 a{
     text-decoration:none;
 }
-.bg-primary{
-    color:#cfcfcf;
-}
 body{
-    background-color: #e6e8e5;
+    background-color: #cfcfcf;
+}
+
+.content .btn{
+    background-color:#333741;
+    color:#cfcfcf;
 }
