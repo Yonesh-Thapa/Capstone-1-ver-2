@@ -12,3 +12,6 @@
 .form-check-label{
     border-color:#000000;
 }
+label{
+    font-weight:bold;
+}
