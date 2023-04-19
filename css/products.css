@@ -1,9 +1,17 @@
 
-.content div{
-    margin-bottom:1rem;
-    margin:1rem auto;
-}
+/* body{
+  /* overflow-wrap:break-word; */
+  /* font-size: min(3vw, 3vh); */
 
+
+/* } */
+.sidebar{
+  font-size: min(3vm, 3vh);
+  margin:0;
+}
+.sidebar form{
+  width:100%;
+}
 
 /* }
 .carousel-caption{
