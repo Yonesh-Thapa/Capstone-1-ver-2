@@ -13,7 +13,4 @@ body{
     background-color:#333741;
     color:#cfcfcf;
 }
-.card.shirt4:hover{
-    background-image:url('../images/models/model2.jpg');
-    transition:all 0.5s ease-out;
-}
+
